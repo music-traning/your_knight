@@ -88,13 +88,13 @@ export const EnvironmentSection: React.FC = () => {
                   </div>
 
                   {/* Card Main Title (Exact required text) */}
-                  <h3 className="font-black text-lg sm:text-xl text-white leading-snug mb-3 group-hover:text-[#FF007F] transition-colors">
+                  <h3 className="font-black text-lg sm:text-xl text-white leading-snug mb-3.5 group-hover:text-[#FF007F] transition-colors break-words">
                     {card.title}
                   </h3>
 
                   {/* Supporting Description */}
                   {card.description && (
-                    <p className="text-xs sm:text-sm font-medium text-zinc-400 leading-relaxed">
+                    <p className="text-xs sm:text-sm font-medium text-zinc-300 leading-relaxed break-words">
                       {card.description}
                     </p>
                   )}
