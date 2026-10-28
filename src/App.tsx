@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { HeroSection } from "./components/HeroSection";
 import { MessageSection } from "./components/MessageSection";
 import { EnvironmentSection } from "./components/EnvironmentSection";
@@ -35,6 +36,7 @@ export const App: React.FC = () => {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 };

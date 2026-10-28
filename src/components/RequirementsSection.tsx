@@ -76,7 +76,7 @@ export const RequirementsSection: React.FC = () => {
                   <div className="mt-0.5 shrink-0 p-1 bg-zinc-900 border border-[#FF007F] shadow-[0_0_10px_rgba(255,0,127,0.6)]">
                     <SwordIcon className="w-4 h-4" />
                   </div>
-                  <span className="font-bold text-sm sm:text-base text-zinc-100 leading-relaxed">
+                  <span className="font-bold text-sm sm:text-base text-zinc-100 leading-relaxed break-words">
                     {item}
                   </span>
                 </li>
