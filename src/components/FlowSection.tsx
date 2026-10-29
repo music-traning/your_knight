@@ -61,12 +61,12 @@ export const FlowSection: React.FC = () => {
                       )}
                     </div>
 
-                    <h3 className="font-black text-base sm:text-lg text-white leading-snug mb-1.5">
+                    <h3 className="font-black text-base sm:text-lg text-white leading-snug mb-1.5 break-words">
                       {index + 1}. {item.title}
                     </h3>
 
                     {item.subtitle && (
-                      <p className="text-xs sm:text-sm text-zinc-400 font-medium leading-relaxed">
+                      <p className="text-xs sm:text-sm text-zinc-400 font-medium leading-relaxed break-words">
                         {item.subtitle}
                       </p>
                     )}

@@ -44,7 +44,7 @@ export const CtaSection: React.FC = () => {
         <ScrollReveal delayMs={150}>
           <div className="w-full">
             <a
-              href="https://x.com/misaki_utaite_"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfHeUy4zA_wiaP0K6uHf9ob8lJ3UtjDqdswm0oyFYvVNB3tjg/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center justify-center w-full py-6 sm:py-8 px-4 bg-[#FF007F] hover:bg-[#ff1a8c] text-white font-black italic text-lg sm:text-2xl tracking-wider border-2 border-white animate-pulse-neon transition-all active:scale-95"
@@ -55,11 +55,7 @@ export const CtaSection: React.FC = () => {
             </a>
 
             <p className="mt-4 text-xs font-bold text-zinc-400 tracking-wider">
-              ※ボタンをタップすると公式X（
-              <span className="text-[#FF007F] font-cyber italic">
-                @misaki_utaite_
-              </span>
-              ）へ移動します
+              ※ボタンをタップすると専用エントリーフォーム（Googleフォーム）へ移動します
             </p>
           </div>
         </ScrollReveal>

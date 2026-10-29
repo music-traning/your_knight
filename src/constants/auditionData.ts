@@ -1,4 +1,7 @@
-export const AUDITION_ENTRY_URL = "https://x.com/misaki_utaite_" as const;
+export const AUDITION_ENTRY_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfHeUy4zA_wiaP0K6uHf9ob8lJ3UtjDqdswm0oyFYvVNB3tjg/viewform?usp=header" as const;
+
+export const OFFICIAL_X_URL = "https://x.com/yuanai_offic" as const;
 
 export interface EnvironmentCardItem {
   id: string;
@@ -14,10 +17,10 @@ export const ENVIRONMENT_CARDS: EnvironmentCardItem[] = [
     id: "env-01",
     number: "01",
     tag: "SOUND & MIX",
-    title: "専属Mixエンジニアによる音声処理とバックアップ",
+    title: "専属Mixエンジニアによる音声処理とバックアップ（※完全無料）",
     highlight: "専属Mixエンジニア",
     description:
-      "グループ内に専属のMix担当が在籍。本格的なDAWとプラグインを用いた精密なノイズ処理・ダイナミクス制御を行い、あなたの歌声を商用水準へ引き上げます。ボーカルミックスの技術的ハードルは内部でクリアできるため、歌唱表現に集中できます。(※まずはスマホ録音からでもエントリー可能です。専属エンジニアのMix技術でクオリティを引き上げます（本格的な宅録機材の導入相談やサポートも可能です）。)",
+      "グループ内に専属のMix担当が在籍。本格的なDAWとプラグインを用いた綿密なノイズ処理・ダイナミクス制御を行い、あなたの歌声を商用水準へ引き上げます。活動にかかるMix費用やオリジナル楽曲・MV制作費が発生することがあれば、運営が負担します。まずはスマホ録音からでもエントリー可能です。専属エンジニアの技術でクオリティを引き上げます。",
   },
   {
     id: "env-02",
@@ -66,7 +69,7 @@ export const FLOW_STEPS: FlowStepItem[] = [
   {
     step: "STEP 01",
     title: "エントリー（書類＆音源審査）",
-    subtitle: "公式X（旧Twitter）の案内より必要事項と歌唱音源を添えてエントリー",
+    subtitle: "専用のGoogleフォームより、プロフィールと歌唱音源（URL等）を送信してエントリー",
   },
   {
     step: "STEP 02",

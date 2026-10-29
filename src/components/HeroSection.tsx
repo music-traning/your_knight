@@ -137,7 +137,7 @@ export const HeroSection: React.FC = () => {
           {/* Hero Section First-View CTA Button */}
           <div className="w-full">
             <a
-              href="https://x.com/misaki_utaite_"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfHeUy4zA_wiaP0K6uHf9ob8lJ3UtjDqdswm0oyFYvVNB3tjg/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative flex items-center justify-center gap-3 w-full py-4 px-6 bg-[#FF007F] text-white font-black italic text-base sm:text-lg tracking-wider border-2 border-white/80 animate-pulse-neon transition-transform active:scale-95"
@@ -149,7 +149,7 @@ export const HeroSection: React.FC = () => {
               <ChevronRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
             <p className="mt-2.5 text-[11px] font-cyber tracking-widest text-zinc-400">
-              ✦ ENTRY VIA OFFICIAL X (@misaki_utaite_) ✦
+              ✦ ENTRY VIA GOOGLE FORM ✦
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ export const HeroSection: React.FC = () => {
             </span>
           </div>
           <a
-            href="https://x.com/misaki_utaite_"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfHeUy4zA_wiaP0K6uHf9ob8lJ3UtjDqdswm0oyFYvVNB3tjg/viewform?usp=header"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-r from-[#FF007F] via-[#ff1a8c] to-[#FF007F] text-white font-black italic text-sm sm:text-base tracking-wider border border-white/70 neon-box active:scale-95 transition-all"

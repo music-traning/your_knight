@@ -14,6 +14,15 @@ export const Footer: React.FC = () => {
         <p className="text-xs font-bold text-zinc-400">
           神歌プロジェクト 新世代歌い手グループ初期メンバーオーディション
         </p>
+        <a
+          href="https://x.com/yuanai_offic"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-bold text-[#FF007F] hover:text-white border border-[#FF007F]/50 hover:bg-[#FF007F]/20 transition-colors"
+        >
+          <span>公式X（旧Twitter）:</span>
+          <span className="font-cyber italic">@yuanai_offic</span>
+        </a>
         <p className="text-[11px] font-cyber tracking-widest text-zinc-600">
           © KAMIUTA PROJECT / YourKnight All Rights Reserved.
         </p>
