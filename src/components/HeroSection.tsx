@@ -47,13 +47,13 @@ export const HeroSection: React.FC = () => {
         {/* Top Cyber HUD Bar */}
         <header className="relative z-10 max-w-xl mx-auto w-full flex items-center justify-between border-b border-zinc-800/90 pb-3">
           <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 bg-[#FF007F] rounded-full shadow-[0_0_10px_#FF007F] animate-ping" />
-            <span className="font-cyber italic font-bold text-xs tracking-[0.2em] text-[#FF007F] neon-text-subtle">
+            <span className="inline-block w-2.5 h-2.5 bg-[#FF007F] rounded-full shadow-[0_0_10px_#FF007F] animate-ping shrink-0" />
+            <span className="font-cyber italic font-bold text-[11px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] text-[#FF007F] neon-text-subtle whitespace-nowrap">
               KAMIUTA PROJECT // 01
             </span>
           </div>
-          <div className="flex items-center gap-1.5 text-[11px] font-cyber tracking-widest text-zinc-400 border border-zinc-800 bg-zinc-900/80 px-2.5 py-0.5">
-            <ShieldAlert className="w-3.5 h-3.5 text-[#FF007F]" />
+          <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] font-cyber tracking-widest text-zinc-400 border border-zinc-800 bg-zinc-900/80 px-2 sm:px-2.5 py-0.5 whitespace-nowrap">
+            <ShieldAlert className="w-3.5 h-3.5 text-[#FF007F] shrink-0" />
             <span>WEISS CHEVALIER</span>
           </div>
         </header>
@@ -77,12 +77,38 @@ export const HeroSection: React.FC = () => {
             >
               Your<span className="text-[#FF007F]">Knight</span>
             </div>
-            <div className="mt-1 flex items-center justify-center gap-3">
-              <span className="h-[1px] w-10 bg-gradient-to-r from-transparent to-[#FF007F]" />
-              <span className="font-cyber italic text-xs sm:text-sm tracking-[0.3em] text-metallic font-bold">
+            <div className="mt-1 flex items-center justify-center gap-2 sm:gap-3">
+              <span className="h-[1px] w-6 sm:w-10 shrink-0 bg-gradient-to-r from-transparent to-[#FF007F]" />
+              <span className="font-cyber italic text-[11px] sm:text-sm tracking-[0.15em] sm:tracking-[0.3em] text-metallic font-bold whitespace-nowrap">
                 ― 初期メンバーオーディション開幕 ―
               </span>
-              <span className="h-[1px] w-10 bg-gradient-to-l from-transparent to-[#FF007F]" />
+              <span className="h-[1px] w-6 sm:w-10 shrink-0 bg-gradient-to-l from-transparent to-[#FF007F]" />
+            </div>
+          </div>
+
+          {/* Main Visual (mv.jpg) with Page-Load Fade-In & Anti-Gravity Floating Animation */}
+          <div className="relative w-full max-w-[260px] sm:max-w-[340px] md:max-w-[380px] mx-auto mb-6 sm:mb-8 animate-mv-fade-in">
+            {/* Ambient Neon Pink Backlight Glow */}
+            <div
+              className="pointer-events-none absolute -inset-3 rounded-full opacity-50 blur-2xl"
+              style={{
+                background:
+                  "radial-gradient(circle, rgba(255,0,127,0.55) 0%, rgba(255,0,127,0.18) 55%, transparent 75%)",
+              }}
+            />
+            <div className="relative z-10 animate-antigravity">
+              <img
+                src="/mv.jpg"
+                alt="YourKnight メインビジュアル"
+                className="w-full h-auto mx-auto rounded-full select-none mv-mask-blend"
+              />
+              {/* Contoured Neon Pink Bloom Overlay */}
+              <img
+                src="/mv.jpg"
+                alt=""
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-0 w-full h-full object-contain rounded-full blur-md opacity-55 mix-blend-screen select-none mv-mask-blend"
+              />
             </div>
           </div>
 
@@ -98,7 +124,7 @@ export const HeroSection: React.FC = () => {
               </span>
               に変わる。
             </span>
-            <span className="mt-3 block text-base sm:text-xl font-black text-zinc-200 bg-gradient-to-r from-transparent via-[#FF007F]/25 to-transparent py-1.5 border-y border-[#FF007F]/40">
+            <span className="mt-3 block text-sm sm:text-xl font-black text-zinc-200 bg-gradient-to-r from-transparent via-[#FF007F]/25 to-transparent py-1.5 border-y border-[#FF007F]/40">
               神歌プロジェクト発・新世代歌い手グループ
               <br className="sm:hidden" />
               <span className="text-[#FF007F] neon-text-subtle italic">
